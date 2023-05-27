@@ -4,7 +4,7 @@ import Post from "../models/Post.js"
 const router = express.Router()
 
 // Setup pages
-router.get("/", async (req, res) => {
+router.get("", async (req, res) => {
     const locals = {
         title: "Node Js Blog",
         description: "Test Blog with Node Js",
